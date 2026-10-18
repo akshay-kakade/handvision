@@ -1,0 +1,51 @@
+# Python Bytecode & Optimization
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+test_env/
+.Python
+
+# Pytest & Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# Frontend / Node Dependencies & Build Artifacts
+**/node_modules/
+**/dist/
+**/dist-ssr/
+**/.vite/
+*.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# MediaPipe Model Task Cache (Large Binary)
+**/backend/models/hand_landmarker.task
+**/*.task
+
+# Environment Variables & Secrets
+.env
+.env.*
+!.env.example
+!**/.env.example
+
+# IDE & Operating System Artifacts
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs & Temporary Files
+*.log

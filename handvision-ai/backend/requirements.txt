@@ -1,0 +1,21 @@
+# HandVision AI — Backend Dependencies
+# Pinned compatible versions for standard CPU inference (Python 3.11 / 3.12)
+
+# Core Computer Vision & ML
+mediapipe>=0.10.14
+opencv-python>=4.8.0,<5.0.0
+numpy>=1.24.0
+
+# API & Streaming Server
+fastapi>=0.100.0
+uvicorn[standard]>=0.22.0
+websockets>=11.0.0
+python-multipart>=0.0.6
+pydantic>=2.0.0
+
+# HTTP & Model Setup
+requests>=2.28.0
+
+# Testing & Quality Assurance
+pytest>=7.0.0
+httpx>=0.24.0
