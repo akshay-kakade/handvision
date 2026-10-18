@@ -308,7 +308,37 @@ npm run build
 8. Toggle **"Mirror Camera Feed"** for a natural mirrored experience.
 
 ---
+## Challenges Faced and Solutions
 
+Developing HandVision AI involved integrating real-time computer vision with a web-based interface while keeping the application responsive on CPU-based hardware.
+
+### 1. Real-Time Video Processing
+**Challenge:** Processing webcam frames in real time introduces latency between frame capture, backend inference, and frontend rendering.
+
+**Approach:** Used WebSocket communication between the React frontend and FastAPI backend, with frame resizing and controlled transmission to manage processing overhead.
+
+### 2. Multi-Hand Tracking
+**Challenge:** Maintaining consistent tracking IDs across frames is difficult when hands move quickly, overlap, or temporarily disappear.
+
+**Approach:** Implemented a lightweight tracking mechanism to associate detections across consecutive frames and manage temporary detection loss.
+
+### 3. Rule-Based Gesture Recognition
+**Challenge:** Similar hand poses can have different meanings, and landmark positions change with hand orientation and camera perspective.
+
+**Approach:** Implemented geometric gesture classification using hand landmarks rather than training a separate classification model. This reduced implementation complexity but required consideration of ambiguous poses and varying hand orientations.
+
+### 4. Frontend and Backend Integration
+**Challenge:** Synchronizing webcam frames, asynchronous detection results, and canvas overlays requires consistent coordinate mapping and lifecycle management.
+
+**Approach:** Separated webcam capture, WebSocket communication, detection processing, and visualization into dedicated modules to improve maintainability and simplify debugging.
+
+### 5. Dependency and Environment Setup
+**Challenge:** Computer vision libraries and their dependencies must be compatible with the local Python environment.
+
+**Approach:** Used a dedicated Python virtual environment and a requirements file to isolate backend dependencies and make installation reproducible.
+
+### Key Takeaway
+This project provided practical experience integrating computer vision with real-time web technologies, designing modular processing pipelines, handling asynchronous communication, and balancing functionality with computational constraints.
 ## Implementation Details
 
 ### Gesture Recognition
