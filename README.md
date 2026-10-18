@@ -177,12 +177,7 @@ handvision-ai/
 │   ├── package.json
 │   ├── tsconfig.json
 │   └── vite.config.ts
-│
-├── screenshots/                     # Directory for demo screenshots
-├── .env.example
-├── .gitignore
-├── LICENSE
-└── README.md
+
 ```
 
 ---
@@ -204,7 +199,7 @@ Install the following on your system:
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/handvision-ai.git
+git clone https://github.com/akshay-kakade/handvision
 cd handvision-ai
 ```
 
@@ -391,5 +386,4 @@ The project demonstrates real-time computer vision, low-latency WebSocket stream
 
 ## License
 
-MIT License — see [LICENSE](LICENSE) for details.#   h a n d v i s i o n  
- 
+MIT License — see [LICENSE](LICENSE) for details.
