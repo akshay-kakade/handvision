@@ -1,4 +1,4 @@
-# HandVision AI — Real-Time Hand Detection, Tracking & Gesture Recognition
+<img width="1771" height="768" alt="Screenshot 2026-10-18 125321" src="https://github.com/user-attachments/assets/08cbcc0d-fc15-4951-ad2a-d3a1a4e95ab3" /># HandVision AI — Real-Time Hand Detection, Tracking & Gesture Recognition
 
 A real-time computer vision application that combines hand detection, multi-hand tracking, geometric gesture recognition, and interactive visualizations in a web-based interface.
 
@@ -353,26 +353,30 @@ AI coding assistance was used for scaffolding, algorithmic formulation, and test
 ## Screenshots and Demo
 
 ### Demo Video
-<!-- Paste your 1-2 minute video link below -->
-**Demo video:** 
 
+**Demo video:** 
+https://youtu.be/7fUErTQaEW0
 ---
 
 ### Screenshots
 
-<!-- Add your application screenshots below -->
-
 #### Skeleton Mode
 <!-- Image placeholder for Skeleton Mode -->
+<img width="1920" height="1020" alt="Screenshot 2026-10-18 123320" src="https://github.com/user-attachments/assets/bc32ed74-015d-4285-9c0e-884332602b03" />
+<img width="1920" height="1020" alt="Screenshot 2026-10-18 123326" src="https://github.com/user-attachments/assets/fb7a7dcb-f898-4a64-bc17-8dd207087bab" />
+<img width="1920" height="1020" alt="Screenshot 2026-10-18 123343" src="https://github.com/user-attachments/assets/24d3aab3-868a-4ed2-b6b6-e7fc6b22aa79" />
+<img width="1920" height="1020" alt="Screenshot 2026-10-18 123332" src="https://github.com/user-attachments/assets/7db9c76f-acb6-42d4-af6f-550df4ac323f" />
 
 
 #### Bounding Box Mode
-<!-- Image placeholder for Bounding Box Mode -->
+
+<img width="1718" height="785" alt="Screenshot 2026-10-18 125218" src="https://github.com/user-attachments/assets/c05870d9-51af-4967-92e1-f86ef7ae4d41" />
 
 
 #### Heatmap Mode
-<!-- Image placeholder for Heatmap Mode -->
 
+<img width="1771" height="768" alt="Screenshot 2026-10-18 125321" src="https://github.com/user-attachments/assets/0c7abd11-7fbc-4c4b-b444-b7fa038a8264" />
+<img width="1782" height="875" alt="Screenshot 2026-10-18 125509" src="https://github.com/user-attachments/assets/209e93ba-74af-4a1d-bca4-1ac6b13d45a1" />
 
 ---
 
